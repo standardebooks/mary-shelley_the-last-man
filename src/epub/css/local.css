@@ -90,3 +90,8 @@ footer{
 #chapter-3-3 time{
     font-style: italic;
 }
+
+#chapter-3-10 blockquote:last-of-type{
+    font-variant: small-caps;
+    text-align: center;
+}
