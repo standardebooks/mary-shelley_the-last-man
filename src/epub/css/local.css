@@ -95,3 +95,7 @@ footer{
 	font-variant: small-caps;
 	text-align: center;
 }
+
+#chapter-3-10 blockquote:last-of-type p{
+	text-indent: 0;
+}
