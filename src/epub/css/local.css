@@ -4,66 +4,66 @@
 
 /* All epigraphs */
 [epub|type~="epigraph"]{
-    font-style: italic;
-    hyphens: none;
-    -epub-hyphens: none;
+	font-style: italic;
+	hyphens: none;
+	-epub-hyphens: none;
 }
 
 [epub|type~="epigraph"] cite{
-    margin-top: 1em;
-    font-style: normal;
-    font-variant: small-caps;
+	font-style: normal;
+	font-variant: small-caps;
+	margin-top: 1em;
 }
 /* End all epigraphs */
 
 /* Full-page epigraphs */
 section[epub|type~="epigraph"]{
-    text-align: center;
+	text-align: center;
 }
 
 section[epub|type~="epigraph"] > *{
-    display: inline-block;
-    margin: auto;
-    margin-top: 3em;
-    max-width: 80%;
-    text-align: initial;
+	display: inline-block;
+	margin: auto;
+	margin-top: 3em;
+	max-width: 80%;
+	text-align: initial;
 }
 
 @supports(display: flex){
-    section[epub|type~="epigraph"]{
-        align-items: center;
-        box-sizing: border-box;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        min-height: calc(98vh - 3em);
-        padding-top: 3em;
-    }
+	section[epub|type~="epigraph"]{
+		align-items: center;
+		box-sizing: border-box;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		min-height: calc(98vh - 3em);
+		padding-top: 3em;
+	}
 
-    section[epub|type~="epigraph"] > *{
-        margin: 0;
-    }
+	section[epub|type~="epigraph"] > *{
+		margin: 0;
+	}
 }
 /* End full-page epigraphs */
 
 [epub|type~="z3998:verse"] p{
-    text-align: initial;
-    text-indent: 0;
+	text-align: initial;
+	text-indent: 0;
 }
 
 [epub|type~="z3998:verse"] p > span{
-    display: block;
-    padding-left: 1em;
-    text-indent: -1em;
+	display: block;
+	padding-left: 1em;
+	text-indent: -1em;
 }
 
 [epub|type~="z3998:verse"] p > span + br{
-    display: none;
+	display: none;
 }
 
 p span.i1{
-    padding-left: 2em;
-    text-indent: -1em;
+	padding-left: 2em;
+	text-indent: -1em;
 }
 
 blockquote[xml|lang]{
@@ -71,27 +71,27 @@ blockquote[xml|lang]{
 }
 
 [epub|type~="z3998:salutation"]{
-    font-variant: small-caps;
+	font-variant: small-caps;
 }
 
 [epub|type~="z3998:salutation"] + p{
-    text-indent: 0;
+	text-indent: 0;
 }
 
 footer{
-    margin-top: 1em;
-    text-align: right;
+	margin-top: 1em;
+	text-align: right;
 }
 
 [epub|type~="z3998:signature"]{
-    font-variant: small-caps;
+	font-variant: small-caps;
 }
 
 #chapter-3-3 time{
-    font-style: italic;
+	font-style: italic;
 }
 
 #chapter-3-10 blockquote:last-of-type{
-    font-variant: small-caps;
-    text-align: center;
+	font-variant: small-caps;
+	text-align: center;
 }
