@@ -29,43 +29,47 @@
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">The Last Man</dc:title>
 		<meta property="file-as" refines="#title">Last Man, The</meta>
-		<dc:subject id="subject-1">SUBJECT_1</dc:subject>
-		<dc:subject id="subject-2">SUBJECT_2</dc:subject>
+		<dc:subject id="subject-1">Science fiction</dc:subject>
+		<dc:subject id="subject-2">Twenty-first century -- Fiction</dc:subject>
+		<dc:subject id="subject-3">End of the world -- Fiction</dc:subject>
+		<dc:subject id="subject-4">Epidemics -- Fiction</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
-		<meta property="term" refines="#subject-1">LCSH_ID_1</meta>
+		<meta property="term" refines="#subject-1">sh85118629</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
-		<meta property="term" refines="#subject-2">LCSH_ID_2</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+		<meta property="term" refines="#subject-2">sh2008112901</meta>
+		<meta property="authority" refines="#subject-3">LCSH</meta>
+		<meta property="term" refines="#subject-3">sh2008103034</meta>
+		<meta property="authority" refines="#subject-4">LCSH</meta>
+		<meta property="term" refines="#subject-4">sh2008103035</meta>
+		<meta property="se:subject">Science Fiction</meta>
+		<dc:description id="description">Love and war in future Europe are thrown into confusion by a global pandemic that obliterates humanity.</dc:description>
+		<meta id="long-description" property="se:long-description" refines="#description">&lt;i&gt;The Last Man&lt;/i&gt; chronicles the last days of humanity in the 21st century as it is slowly obliterated by a global pandemic. Radical changes and events across Europe—the king abdicates, turning England into a Republic; war erupts between Greece and Turkey—weaken the fabric of society, allowing an unknown and deadly disease to quickly spread across the world. Political leaders are disorganised; spiritual figures offer little comfort; science yields no answers. Previously distinguished individuals abandon their people in their time of need out of cowardice, while others admirably rise up to the occasion. Yet, none of this matters at all when humanity comes to its end. &lt;a href="https://standardebooks.org/ebooks/mary-shelley"&gt;Mary Shelley&lt;/a&gt; wrote this book during the darkest time of her life. Over the years, she had lost her husband, Percy Bysshe Shelley, in a boating accident; her close friend, Lord Byron; and her children. Writing the novel became an instrument to process her own hopelessness and isolation—various characters are impressions of her departed loved ones. Contemporary critics were not kind to &lt;i&gt;The Last Man&lt;/i&gt;. While &lt;i&gt;&lt;a href="https://standardebooks.org/ebooks/mary-shelley/frankenstein"&gt;Frankenstein&lt;/a&gt;&lt;/i&gt; was lauded for its depiction of scientific presumption, humanity’s impotence and subsequent extinction were deemed offensive. The book faded into near-obscurity and merely survived until its rediscovery in the 1960s. After two World Wars, several epidemics, and the threat of nuclear annihilation, humanity’s end may not have seemed as absurd any more.</meta>
+		<dc:language>en-GB</dc:language>
+		<dc:source>https://gutenberg.org/ebooks/18247</dc:source>
+		<dc:source>https://catalog.hathitrust.org/Record/001692807</dc:source>
+		<meta property="se:production-notes">
+			Hic jacet (3-2:42) and ipse dixit (3-6:53) are uncommon latinisms but haven’t been italicised because they are in M-W.
 		</meta>
-		<dc:language>LANG</dc:language>
-		<dc:source>PG_URL</dc:source>
-		<dc:source>IA_URL</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Last_Man</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/mary-shelley_the-last-man</meta>
 		<dc:creator id="author">Mary Shelley</dc:creator>
 		<meta property="file-as" refines="#author">Shelley, Mary</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
+		<meta property="se:name.person.full-name" refines="#author">Mary Wollstonecraft Shelley</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Mary_Shelley</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79061063</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
+		<dc:contributor id="artist">Thomas Cole</dc:contributor>
+		<meta property="file-as" refines="#artist">Cole, Thomas</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Thomas_Cole</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n50026811</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">TRANSCRIBER_URL</meta>
+		<dc:contributor id="transcriber-1">Anonymous</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Anonymous</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="producer-1">François Grandjean</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Grandjean, François</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">cov</meta>
