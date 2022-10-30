@@ -87,6 +87,10 @@ footer{
 	font-variant: small-caps;
 }
 
+q{
+	font-style: italic;
+}
+
 #chapter-3-3 time{
 	font-style: italic;
 }
