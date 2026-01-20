@@ -58,7 +58,7 @@
 
 			endnotes.xhtml, note 15: typogrify attempts to replace the space between the note and the referrer link with a no-break space but lint insists it must be a regular space.
 		</meta>
-		<meta property="se:word-count">175834</meta>
+		<meta property="se:word-count">175315</meta>
 		<meta property="se:reading-ease.flesch">62.72</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Last_Man</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/mary-shelley_the-last-man</meta>
