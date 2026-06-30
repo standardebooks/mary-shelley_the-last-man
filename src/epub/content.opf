@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/mary-shelley/the-last-man</dc:identifier>
 		<dc:date>2022-10-18T20:59:56Z</dc:date>
 		<meta property="dcterms:modified">2022-10-18T20:59:56Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
+		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
-		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org/</meta>
+		<link href="https://standardebooks.org/" refines="#publisher" rel="schema:url"/>
 		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
-		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com/</meta>
+		<link href="https://www.theleagueofmoveabletype.com/" refines="#type-designer" rel="schema:url"/>
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<meta id="conformance-statement" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
 		<meta property="a11y:certifiedBy" refines="#conformance-statement">Standard Ebooks</meta>
@@ -41,7 +42,7 @@
 		<meta property="term" refines="#subject-3">sh2008103034</meta>
 		<meta property="authority" refines="#subject-4">LCSH</meta>
 		<meta property="term" refines="#subject-4">sh2008103035</meta>
-		<meta property="se:subject">Science Fiction</meta>
+		<meta property="schema:genre">Science Fiction</meta>
 		<dc:description id="description">Love and war in future Europe are thrown into confusion by a global pandemic that obliterates humanity.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;i&gt;The Last Man&lt;/i&gt; chronicles the last days of humanity in the 21st century as it is slowly obliterated by a global pandemic. Radical changes and events across Europe—the king abdicates, turning England into a Republic; war erupts between Greece and Turkey—weaken the fabric of society, allowing an unknown and deadly disease to quickly spread across the world. Political leaders are disorganized; spiritual figures offer little comfort; science yields no answers. Previously distinguished individuals abandon their people in their time of need out of cowardice, while others admirably rise up to the occasion. Yet, none of this matters at all when humanity comes to its end.&lt;/p&gt;
@@ -51,29 +52,24 @@
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/18247</dc:source>
 		<dc:source>https://catalog.hathitrust.org/Record/001692807</dc:source>
-		<meta property="se:production-notes">
-			Hic jacet (3-2:42) and ipse dixit (3-6:53) are uncommon latinisms but haven’t been italicised because they are in M-W.
-
-			An hyphen was restored in verse (3-4:50) to preserve the original stress pattern.
-
-			endnotes.xhtml, note 15: typogrify attempts to replace the space between the note and the referrer link with a no-break space but lint insists it must be a regular space.
-		</meta>
-		<meta property="se:word-count">175315</meta>
-		<meta property="se:reading-ease.flesch">62.72</meta>
-		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Last_Man</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/mary-shelley_the-last-man</meta>
+		<meta property="schema:wordCount">175315</meta>
+		<meta property="schema:educationalLevel">62.72</meta>
+		<link href="https://en.wikipedia.org/wiki/The_Last_Man" rel="schema:sameAs"/>
+		<meta property="schema:workExample" id="vcs-repository">schema:workExample</meta>
+		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
+		<link href="https://github.com/standardebooks/mary-shelley_the-last-man" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Mary Shelley</dc:creator>
 		<meta property="file-as" refines="#author">Shelley, Mary</meta>
-		<meta property="se:name.person.full-name" refines="#author">Mary Wollstonecraft Shelley</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Mary_Shelley</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79061063</meta>
+		<meta property="schema:alternateName" refines="#author">Mary Wollstonecraft Shelley</meta>
+		<link href="https://en.wikipedia.org/wiki/Mary_Shelley" refines="#author" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n79061063.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">win</meta>
 		<dc:contributor id="artist">Thomas Cole</dc:contributor>
 		<meta property="file-as" refines="#artist">Cole, Thomas</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Thomas_Cole</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n50026811</meta>
+		<link href="https://en.wikipedia.org/wiki/Thomas_Cole" refines="#artist" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n50026811.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Anonymous</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Anonymous</meta>
@@ -88,7 +84,7 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 		<dc:contributor id="producer-2">Weijia Cheng</dc:contributor>
 		<meta property="file-as" refines="#producer-2">Cheng, Weijia</meta>
-		<meta property="se:url.homepage" refines="#producer-2">https://weijiarhymeswith.asia/</meta>
+		<link href="https://weijiarhymeswith.asia/" refines="#producer-2" rel="schema:url"/>
 		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
